@@ -1,0 +1,36 @@
+.landingpage1{
+    background-image: url(/landingpagepix.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 48rem;
+    /* z-index: 2; */
+    
+}
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    font-size: 30px;
+}
+.anchortags{
+display: flex;
+justify-content: space-evenly;
+margin-left: 951px;
+margin-right: -48px;
+position: relative;
+bottom: 40px;
+}
+.logoimg{
+    position: relative;
+    top: 20px;
+
+}
+.thor{
+    font-size: 60px;
+}
+.paragraph{
+    font-size: 20px;
+    display: flex;
+    padding-right: 700px;
+}
