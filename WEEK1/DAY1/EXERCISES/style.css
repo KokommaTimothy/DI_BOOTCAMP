@@ -1,0 +1,26 @@
+.lion-table{
+    border: 3px solid red;
+    text-align: center;
+    width: 1230px;
+    margin-left: 180px;
+
+}
+.table-header{
+   margin-top: 5px;
+   width: 80%;
+   margin-left: 180px;
+  
+}
+td, th{
+    border: 1px solid black;
+   text-align: center;
+   padding: 8px;
+}
+ img{
+    border: 10px solid;
+    margin-top: 70px;
+    margin-left: 37%;
+ }
+ .media-cat{
+    text-align: center;
+ }
