@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-image: url(pexels-lisa-fotios-691858.jpg);
+    background-size: cover;
+}
+.navbar{
+background-color: darkgray;
+height: 50px;
+display: flex;
+flex-wrap: wrap;
+}
+.boot{
+    position: relative;
+    left: 200px;
+    top: 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.signin{
+    position: relative;
+    left: 1154px;
+    top: 15px;
+    font-size: 15px;
+    font-weight: 100; 
+    background-color: blue;
+    padding: 10px;
+    margin-bottom: 27px;
+    margin-top: -6px;
+}
+.page{
+text-align: center;
+}
+p{
+    font-size: 80px;
+    position: relative;
+  top: 100px;
+  font-weight: 300;
+}
+input{
+    padding-left: 15px;
+padding-right: 256px;
+padding-top: 10px;
+padding-bottom: 10px;
+position: relative;
+top: 208px;
+}
+label{
+    padding-left: 42px;
+    padding-right: 42px;
+padding-top: 10px;
+padding-bottom: 10px;
+position: relative;
+top: 208px;
+background-color: blue;
+}
