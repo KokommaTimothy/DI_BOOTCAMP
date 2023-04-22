@@ -4,7 +4,7 @@ body{
     background-size: cover;
 }
 .navbar{
-background-color: darkgray;
+background-color:lightblue;
 height: 50px;
 display: flex;
 flex-wrap: wrap;
