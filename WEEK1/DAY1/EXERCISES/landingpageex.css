@@ -9,7 +9,7 @@ height: 50px;
 display: flex;
 flex-wrap: wrap;
 }
-.boot{
+.head{
     position: relative;
     left: 200px;
     top: 15px;
@@ -42,7 +42,7 @@ padding-right: 256px;
 padding-top: 10px;
 padding-bottom: 10px;
 position: relative;
-top: 208px;
+top: 100px;
 }
 label{
     padding-left: 42px;
@@ -50,6 +50,6 @@ label{
 padding-top: 10px;
 padding-bottom: 10px;
 position: relative;
-top: 208px;
+top: 100px;
 background-color: blue;
 }
