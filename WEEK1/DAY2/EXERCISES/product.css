@@ -1,0 +1,52 @@
+.designs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+ 
+img{
+    width: 375px;
+    height: 83%;
+    transition: all 3s;
+}
+img:hover{
+    transform: scale(1.1);
+    width: 500px;
+    height: 700px;
+}
+.clothname{
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+}
+.price{
+    color: dodgerblue;
+    position: relative;
+    left: 120px;
+}
+button{
+    padding: 5px;
+    position: relative;
+    left: 100px;
+}
+/* .description{
+    position: relative;
+    left: 50px;
+} */
+.picture5{
+    position: relative;
+    top: 40px;
+} 
+.picture6{
+    position: relative;
+    top: 40px;
+}
+.picture7{
+    position: relative;
+    top: 40px;
+}
+.picture8{
+    position: relative;
+    top: 40px;
+}

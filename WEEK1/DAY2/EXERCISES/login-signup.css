@@ -1,0 +1,27 @@
+body{
+    background-image: url(pexels-jaysen-scott-1858488\(1\).jpg);
+    background-size: cover;
+}
+form{
+  text-align: center;
+  position: relative;
+  top:150px;
+}
+label{
+    font-size: 30px;
+}
+input{
+    padding:10px 200px;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+#submit{
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    left: 30px;    
+}

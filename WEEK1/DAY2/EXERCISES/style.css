@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .active{
+    float: right;
+    position:relative;
+    right: 50px;
+    color: aliceblue;
+  }
+  .signup{
+    position:relative;
+    left: 971px
+  }
+  .login{
+    position:relative;
+    left: 983px 
+  }
