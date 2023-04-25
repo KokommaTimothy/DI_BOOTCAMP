@@ -1,3 +1,4 @@
+//DAY1 DAILY CHALLENGE 1
 const fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
         fruits.shift(0);
         console.log(fruits)
