@@ -3,8 +3,7 @@ let navbar = document.querySelector(".navbar");
 
 menu.onclick = () => {
     menu.classList.toggle("menubar");
-    navbar.classList.toggle("active");
-    
+    navbar.classList.toggle("active");  
 }
 
 window.onscroll = () => {
@@ -24,7 +23,7 @@ let swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-      delay: 7500,
+      delay: 5500,
       disableOnInteraction: false
     },
     pagination: {
@@ -32,4 +31,36 @@ let swiper = new Swiper(".home-slider", {
       clickable: true
     },
     loop:true,
+})
+
+
+let newswiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    centeredSlides: true,
+    autoplay: {
+      delay: 5500,
+      disableOnInteraction: false
+    },
+    
+    loop:true,
+    // breakpoints: {
+    //     0: {
+    //         slidesPerView: 1,
+    //     },
+    //     640: {
+    //         slidesPerView: 2,
+    //     },
+    //     768: {
+    //         slidesPerView: 2,
+    //     },
+    //     1024: {
+    //         slidesPerView: 3,
+    //     },
+
+    // },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+    
 })
