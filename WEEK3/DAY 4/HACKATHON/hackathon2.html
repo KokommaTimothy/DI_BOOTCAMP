@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hackathon2.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <title>Restaurant Website</title>
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo"><ion-icon name="restaurant" class="icon" style="font-size:70px;color:aquamarine;"></ion-icon>Bingmot</a>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#Dishes">Dishes</a>
+        <a href="#About">About</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Review">Review</a>
+        <a href="#Order">Order</a>
+    </nav>
+    <div class="icons">
+        <ion-icon class="menubar" name="menu" id="menu-bars"></ion-icon>
+        <ion-icon class="search" name="search" id="search"></ion-icon>
+        <a href="#"><ion-icon name="heart"></ion-icon></a>
+        <a href="#"><ion-icon name="cart"></ion-icon></a>
+    </div>
+</header>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Search here..." name="" id="search-box">
+    <label for="search-box" class="search"></label>
+    <ion-icon class="search" name="search" id="close"></ion-icon>
+</form>
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our special dish</span>
+                    <h3>Coconut Rice</h3>
+                    <p>Our coconut rice is a spicy dish, bursting with flavours from the addition of spices and condiments like dried ground crayfish, curry powder etc. The addition of smoked mackerel and colourful peppers to this recipe makes it a nourishing one-pot meal.</p>
+                    <a href="" class="btn">Order now</a>
+                </div>
+                <div class="image">
+                    <img src="recipes/coconut rice.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our special dish</span>
+                    <h3>Fisherman Soup</h3>
+                    <p>Our fisherman soup is laden with crabs, king prawns, gigantic snails, periwinkles, ngolo (whelks), and barracuda fish; if you like seafood, this is the soup for you.</p>
+                    <a href="" class="btn">Order now</a>
+                </div>
+                <div class="image">
+                    <img src="recipes/fisherman soup 2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our special dish</span>
+                    <h3>Egusi Soup</h3>
+                    <p>Our special West African dish made with  local melon seed (Egusi), leafy green vegetables and assorted meat.</p>
+                    <a href="" class="btn">Order now</a>
+                </div>
+                <div class="image">
+                    <img src="recipes/egusi soup.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our special dish</span>
+                    <h3>Jellof rice</h3>
+                    <p>Our special spicy jellof rice, seasoned with Caribbean-style curry powder, dried thyme, bay leaf, ginger, and garlic.</p>
+                    <a href="" class="btn">Order now</a>
+                </div>
+                <div class="image">
+                    <img src="recipes/jellof rice 2.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+
+<!-- <section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Our dishes</h3>
+    <h1 class="heading"> Popular Dishes</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#"><ion-icon name="heart"></ion-icon></a>
+            <a href="#"></a> <ion-icon name="eye"></ion-icon></a>
+            <img src="recipes/Afang_Soup_with_eba.jpg" alt="">
+            <h3>Tasty food</h3>
+            <div class="stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+            </div>
+            <span>$5.55</span>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+</section> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="hackathon2.js"></script>
+</body>
+</html>
