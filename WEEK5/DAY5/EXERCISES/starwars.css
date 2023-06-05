@@ -1,0 +1,45 @@
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: azure;
+    margin-top: 200px;
+    font-size: 5rem;
+}
+
+body{
+    
+    background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+
+}
+.container{
+    border: 3px solid green;
+    border-radius: 15px;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+
+    
+}
+
+input{
+    margin-top: 20px;
+    border: 3px solid red;
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
